@@ -197,15 +197,115 @@ main{
 #contact-with-img{
     width: 100%;
     height: 60vh;
+    /* FLEX */
+    display: flex;
+    justify-content: center;
 
 }
+
+
+#container-ctc-img{
+    width: 70%;
+    height: 100%;
+    /* FLEX */
+    display: flex;
+    align-items: center;
+
+}
+
+#container-ctc-img img{
+    width: 50%;
+    height: 80%;
+}
+
+#container-ctc-img div{
+    width: 50%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* <!-- Quinta Sezione Dropbox Business--> */
 
 #drop-business{
     width: 100%;
-    height: 150vh;
+    height: 170vh;
+    /* FLEX */
+    display: flex;
+    justify-content: center;
+}
+
+#container-drp-bus{
+    width: 70%;
+    height: 100%;
+}
+
+#container-drp-bus h2{
+    height: 10%;
+    font-size: 66px;
 
 }
+
+#drp-bus{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.drp-bus-box{
+    width: 32%;
+    height: 50%;
+}
+
+.drp-bus-box img{
+   width: 100%;
+}
+.drp-bus-box h4{
+    font-size: 40px;
+}
+
+.drp-bus-box p{
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* <!-- Sesta Sezione Pre Customers --> */
 
 #pre-customers{
