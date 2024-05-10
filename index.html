@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-        <!-- Link Style -->
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -155,11 +157,62 @@
         <section id="faqs">
             <div id="container-faqs">
                 <h4>Domande Frequenti</h4>
+                <hr>
                 <div id="faqs-answer">
-                    <div class="answer">Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
-                    <div class="answer">Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
-                    <div class="answer">Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
-                    <div class="answer">Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
+                    <div class="accordion">
+                        <div>Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
+                        <div><i class="fa fa-angle-down"></i></div>
+                    </div>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <hr>
+
+                    <div class="accordion">
+                        <div>Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
+                        <div><i class="fa fa-angle-down"></i></div>
+                    </div>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <hr>
+
+                    <div class="accordion">
+                        <div>Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
+                        <div><i class="fa fa-angle-down"></i></div>
+                    </div>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <hr>
+
+                    <div class="accordion">
+                        <div>Qual'è la differenza tra Dropbox Business e Dropbox Business Advanced?</div>
+                        <div><i class="fa fa-angle-down"></i></div>
+                    </div>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <hr>
+
+
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+                        
+                        for (i = 0; i < acc.length; i++) {
+                          acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                              panel.style.display = "none";
+                            } else {
+                              panel.style.display = "block";
+                            }
+                          });
+                        }
+                        </script>
+
                 </div>
                 
 
@@ -173,6 +226,55 @@
 
     <!-- Parte del footer -->
     <footer>
+        <div class="container-footer">
+            <div>
+                <a href="#"><h4>Dropbox</h4></a>
+                <a href="#">Applicazioni desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>   
+            </div>
+            <div>
+                <a href="#"><h4>Prodotti</h4></a>
+                <a href="#">Applicazioni desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>   
+            </div>
+            <div>
+                <a href="#"><h4>Azienda</h4></a>
+                <a href="#">Applicazioni desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>   
+            </div>
+            <div>
+                <a href="#"><h4>Supporto</h4></a>
+                <a href="#">Applicazioni desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>   
+            </div>
+            <div>
+                <a href="#"><h4>Community</h4></a>
+                <a href="#">Applicazioni desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>   
+            </div>
+            
+        </div>
+        <div class="container-footer2">
+            <div>
+                <span>Italiano</span>
+            </div>
+
+        </div>
 
 
     </footer>
