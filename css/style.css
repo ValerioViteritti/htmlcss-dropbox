@@ -19,7 +19,7 @@ header{
 
 nav{
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     
     /* FLEX */
 
@@ -28,8 +28,9 @@ nav{
 }
 
 nav div{
-    width: 37%;
+    width: 40%;
     height: 100%;
+    
 
     /* FLEX */
     display: flex;
@@ -37,6 +38,84 @@ nav div{
     align-items: center;
     gap: 20px;
 }
+
+nav div img{
+    height: 36%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    width: 100%;
+}
+
+/* a#logo img{
+    width: 150%;
+} */
+
+.xxx{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+nav div a{
+    border: none;
+}
+
+#nav-blue-button{
+    width: 11%;
+    height: 45%;
+    background-color: #0061FF;
+    color: white;
+    
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div a:hover{
+    border-bottom: 2px solid black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 26%;
+    text-align: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 22px;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 1%;
+    z-index: 1;
+  }
+
+  .dropdown-content a{
+    background-color: #f9f9f9;
+    color: black;
+    padding: 0px 33%;
+    border: 1px solid black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
 
 
 
@@ -50,7 +129,7 @@ main{
 #jumbo{
     width: 100%;
     height: 75vh;
-    background-color: aqua;
+    background-color: #B4D0E7;
     position: relative;
     /* FLEX */
     display: flex;
@@ -176,7 +255,7 @@ main{
 #contact-B a{
     width: 90%;
     height: 28%;
-    background-color: dodgerblue;
+    background-color: #0061ff;
     color: white;
     font-size: 22px;
     font-weight: bold;
@@ -358,7 +437,7 @@ main{
 #bot-customers{
     width: 100%;
     height: 40vh;
-    background-color: aquamarine;
+    background-color: #b4d0e7;
     /* FLEX */
     display: flex;
     justify-content: center;
@@ -377,7 +456,7 @@ main{
 
 #container-bot-cus h2{
     font-size: 66px;
-    color: brown;
+    color: #61082b;
 }
 
 #container-bot-cus a{
@@ -551,13 +630,20 @@ footer{
 .container-footer2 div{
     width: 10%;
     height: 70%;
-    color: grey;
-    border-top: 1px solid grey;
+    color: #686868;
+    border-top: 1px solid #686868;
+    font-size: 26px;
     /* FLEX */
     display: flex;
     align-items: center;
+    gap: 3%;
+
 
     
+}
+
+.container-footer2 div span{
+    font-size: 18px;
 }
 
 
