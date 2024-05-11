@@ -1,11 +1,13 @@
-/* Regole Generali */
+/*Regole Generali*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    border: 1px dashed red;
-    list-style-type: none;
+    /* border: 1px dashed red; */
+    /* list-style-type: none; */
+    
+    
 }
 body{
     font-family: open sans;
@@ -14,8 +16,11 @@ body{
 .button-blue{
     background-color: #0061FF;
     color: white;
+    font-weight: bold;
+}
 
-
+a{
+    color: #116cff;
 }
 
 /* Regole dell'header */
@@ -83,7 +88,7 @@ nav div a{
     
     
     font-size: 22px;
-    font-weight: bold;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +222,7 @@ a#jumbo-blue-button{
 
 }
 
-#container-price h2{
+#price-big-title{
     height: 5%;
     font-size: 64px;
     margin-top: 15%;
@@ -261,7 +266,7 @@ a#jumbo-blue-button{
 
 #price-plane{
     width: 100%;
-    height: 90%;
+    height: 78%;
     /* FLEX */  
     display: flex;
     justify-content: space-between;
@@ -271,27 +276,99 @@ a#jumbo-blue-button{
 .price-plane-style{
     width: 30%;
     height: 100%;
+    border: 1px solid gainsboro;
 
 }
 
-#apex{
+.apex{
     text-align: center;
+    border: 1px solid gainsboro;
+    font-size: 26px;
+    padding: 2% 0;
 }
 
-.price-plane-style 
+.plane-info{
+    width: 80%;
+    height: 80%;
 
+    margin: 0 auto;
+}
 
-.price-plane-style
+.plane-title{
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 8%;
 
+}
 
+.plane-info h4{
+    font-size: 26px;
+    margin-bottom: 6%;
+}
 
-.price-plane-style
+#months{
+    font-size: 22px;
+    font-weight: bold;
+    color: #72818d;
+    margin-bottom: 14%;
+}
 
+.plane-info div i{
+    font-size: 24px;
+    margin-top: 10%;
+}
 
-.price-plane-style
+.info-style{
+    font-size: 22px;
+    margin-left: 0.5%;
+}
 
+#but-blu-style{
+    text-align: center;
+    margin: 10% 0;
+    padding: 3% 8%;
+}
+.plane-info div#but-blu-style a{
+    color: white;
+    font-size: 22px;
+    
+}
 
-.price-plane-style
+.link-or{
+    height: 10%;
+    font-size: 23px;
+
+}
+
+.or{
+    display: inline-block;
+    border-bottom: 1px solid gainsboro;
+    height: 55%;
+}
+
+.plane-info ul{
+    font-size: 22px;
+    margin-left: 6%;
+    margin-top: 10%;
+
+}
+.plane-info ul li{
+    margin-bottom: 10%;
+}
+
+/* .plane-info ul li::before{
+    content: '\2714';
+    color: #116cff;
+    font-size: 36px;
+    
+} */
+
+ul li::marker {
+    content: '✓';
+    color: #116cff;
+    font-size: 150%;
+  }
+
 
 
 
@@ -309,10 +386,11 @@ a#jumbo-blue-button{
 
 #contact{
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     /* FLEX */
     display: flex;
     justify-content: center;
+    margin-top: 4%;
 
 }
 
@@ -320,15 +398,20 @@ a#jumbo-blue-button{
 #container-contact{
     width: 70%;
     height: 100%;
+    
 
 }
 
 #contact-team{
     height: 20%;
     text-align: center;
+    font-size: 28px;
+    border: 1px solid gainsboro;
+    padding-top: 0.5%;
 }
 #contact-info{
     height: 80%;
+    border: 1px solid gainsboro;
     /* FLEX */
     display: flex;
 
@@ -337,9 +420,30 @@ a#jumbo-blue-button{
 #contact-A{
     width: 68%;
     height: 100%;
-
-
+    margin-left: 3%;
 }
+
+#contact-A h2{
+    font-size: 40px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+#contact-A h3{
+    font-size: 26px;
+    margin-bottom: 2%;
+}
+
+#contact-A p{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
 #contact-B{
     width: 32%;
     height: 100%;
@@ -351,13 +455,12 @@ a#jumbo-blue-button{
 
 #contact-B a{
     width: 90%;
-    height: 28%;
-    background-color: #0061ff;
-    color: white;
+    height: 24%;
+    
     font-size: 22px;
-    font-weight: bold;
+    
     padding: 10px 0;
-    margin-top: 40px;
+    margin-top: 8%;
     text-align: center;
 }
 
@@ -372,10 +475,13 @@ a#jumbo-blue-button{
 
 #contact-with-img{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
+    margin-top: 5%;
+    margin-bottom: 2%;
     /* FLEX */
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -390,13 +496,32 @@ a#jumbo-blue-button{
 }
 
 #container-ctc-img img{
-    width: 50%;
+    width: 54%;
     height: 80%;
 }
 
 #container-ctc-img div{
-    width: 50%;
+    width: 46%;
     height: 80%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+#container-ctc-img div h2{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+#container-ctc-img div p{
+    font-size: 27px;
+    margin-bottom: 8%;
+}
+#container-ctc-img div a{
+    border: 2px solid black;
+    font-size: 26px;
+    color: black;
+    padding: 1.5% 5%;
+
 }
 
 
