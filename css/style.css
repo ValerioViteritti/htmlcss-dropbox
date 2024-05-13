@@ -654,6 +654,7 @@ ul li::marker {
     /* FLEX */
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     
 }
   
